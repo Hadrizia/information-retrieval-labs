@@ -29,7 +29,7 @@ itemid = str(302)
 actual_rating = 4
 
 # Getting prediction from userId = 196, itemId = 302 and actual_rating = 4
-# TODO: Run this for all itens from test and sort
+# TODO: Run this for all itens consumed by userID from test and sort
 pred = algo.predict(userid, itemid)
 print(testset)
 print (pred)
